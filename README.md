@@ -14,9 +14,12 @@
   - ID, 비밀번호 입력 시 기존에 가입한 회원 ID, 비밀번호 체크 => 오류 시 에러 메시지 출력(Toast)
   - ID, 비밀번호 입력이 정상이고 로그인 버튼 클릭 시 세번째 페이지 이동 
   
+  
   - 화면 밖 터치 / 로그인버튼 클릭시 keypad 내려감
   - 아이디가 존재하지 않을 경우, 자동으로 아이디 비밀번호 비우고 다시 focus 줌
   - 비밀번호가 틀렸을 경우 비밀번호만 지우고 focus 줌
+  
+  
   
   
   2. Register Activity (Linear Layout 사용)
@@ -26,8 +29,11 @@
   - 개인정보 사용 동의 간략 약관(TextView), 동의 여부(Radio Button, Decline/Accept)
   - 회원정보는 파일로 저장하고 첫번째 페이지로 이동
   
+  
   - 개인정보 사용에 동의하지 않을시 register button 비활성화
   - 필수항목을 다 채우지 않았을 경우 / 채웠으나 형식이 틀렸을 경우 / 아이디가 중복인 경우 구분하여 에러 메세지 출력
+
+
 
 
   3. Main Activity - 간편 Calculator 기능 (Table Layout 사용)
